@@ -1,0 +1,11 @@
+[
+  {
+    "id": "msg-001",
+    "name": "Example Customer",
+    "email": "customer@example.com",
+    "phone": "+234 810 123 4567",
+    "message": "I'm interested in your Ankara collection!",
+    "createdAt": "2026-04-20T10:30:00.000Z",
+    "read": false
+  }
+]
