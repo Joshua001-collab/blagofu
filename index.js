@@ -9,11 +9,11 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-this-in-production';
+const JWT_SECRET = process.env.JWT_SECRET;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5000'],
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5000', 'https://blagofu-frontend.onrender.com'],
   credentials: true
 }));
 app.use(express.json());
